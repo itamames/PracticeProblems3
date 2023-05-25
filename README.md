@@ -153,10 +153,7 @@ public static boolean isBSTHelper(TreeNode T, int min, int max)
 }
 ```
 
-6)
-
-
-Given a heap represented as an ArrayList, determine if it is a valid min-heap. Use a for loop.
+7) Given a heap represented as an ArrayList, determine if it is a valid min-heap. Use a for loop.
 
 ```java
 public static boolean isMinHeap(ArrayList<Integer> minHeap) 
