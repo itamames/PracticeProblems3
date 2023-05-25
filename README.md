@@ -20,7 +20,7 @@ BFS:
 ```
 
 2) A binary tree is modeled using the following class:
-3) 
+
 ```java
 public class BinaryTree<E> 
 {
@@ -53,7 +53,7 @@ Complete the method named mirror that alters the tree so that the final tree is 
 
 
 3) For a Tree t, the lowest common connection for node 7 and node 13 will be node 10. Find the common connection of any 2 nodes or return -1 if there isn't one.
-4) 
+
 ```text
     10
    / \
@@ -78,7 +78,7 @@ public static int sameAncestor(Tree t, int x, int y)
 ```
 
 4) Convert a max heap into a min-heap without recursion.
-5) 
+
 ```java
 public static ArrayList<Integer> convertMaxHeapToMinHeap(ArrayList<Integer> maxHeap) 
 { // Traverse the max heap from the last parent to the root
@@ -152,6 +152,8 @@ public static boolean isBSTHelper(TreeNode T, int min, int max)
     //todo
 }
 ```
+
+6)
 
 
 Given a heap represented as an ArrayList, determine if it is a valid min-heap. Use a for loop.
